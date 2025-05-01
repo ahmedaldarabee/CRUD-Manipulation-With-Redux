@@ -1,0 +1,50 @@
+.header {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.header h1 {
+  margin: 20px 0;
+}
+.header .nav {
+  background-color: black;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.header .nav li:first-child {
+  margin-left: 5px;
+}
+
+.header .nav li {
+  margin-right: 10px;
+}
+
+.header .nav li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header .nav .active , .main-color{
+  color:#90CAF9;
+}
+
+.login {
+  color: white;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.errorImage {
+  width:500px;
+  height:500px;
+  cursor:pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
